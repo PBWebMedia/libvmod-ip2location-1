@@ -54,7 +54,7 @@ reload_db(ip2location_data_t *data)
 
 
 int
-event_handler(VRT_CTX, struct vmod_priv *priv, enum vcl_event_e e)
+vmod_event_handler(VRT_CTX, struct vmod_priv *priv, enum vcl_event_e e)
 {
     ip2location_data_t *data = NULL;
 
